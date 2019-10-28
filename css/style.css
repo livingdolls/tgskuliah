@@ -80,13 +80,9 @@ ul.ac > li.drops > .sss{
 
 .menu{
     margin: 2%;
-    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
 }
-
-.drop2{
-    float: left;
-}
-
 
 ul.ac > li.drops > ul.sss > li{
     padding: 14px 16px;
@@ -178,7 +174,6 @@ body{
     margin-top: 8px;
     margin-right: 20px;
     width: 30%;
-    float: right;
 }
 
 i.a{
@@ -191,4 +186,21 @@ p.pmain{
     font-size: 25px;
     color: #2c3e50;
     margin-bottom: 20px;
+}
+
+.jdlweb{
+    height: 150px;
+    width: 100%;
+    background: url(../img/bj.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+p.jdlwebs{
+    font-size: 35px;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

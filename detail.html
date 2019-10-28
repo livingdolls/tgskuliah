@@ -10,7 +10,11 @@
     <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
-
+        <div class="jdlweb">
+                <p class="jdlwebs">
+                    Web Fashion Laki-Laki
+                </p>
+            </div>
     <header>
             <div class="nav">
                 <div class="icon">
@@ -34,51 +38,78 @@
             
     <div class="detail">
         <div class="box">
-            <img src="img/produk/baju1.jpg" alt="" width="100%">
+            <img class="pr" src="img/produk/baju1.jpg" alt="" width="100%">
         </div>
         <div class="detailbox">
-            
-            <h1>Sepatu Kets</h1>
-            <p class="harga">IDR 200000</p>
+            <div class="atas">
+                <h2>Sepatu Kets</h2>
+                <p class="harga">IDR 200000</p>
+            </div>
 
-            <form class="aced" action="">
-                <input id="m" type="radio" name="size" value="X">
-                <label for="m">M</label>
-                <input id="x" type="radio" name="size" value="XL">
-                <label for="x">X</label>
-                <input id="xl" type="radio" name="size" value="XXL">
-                <label for="xl">XL</label>
-                <input id="xxl" type="radio" name="size" value="XXL">
-                <label for="xxl">XXL</label>
-                <button class="cart">ADD TO CART</button>
-            </form>
-
-            <h2>Deskripsi Produk</h2>
-
+        <div class="cart">
+            <form action="" method="GET">
             <table>
                 <tr>
-                    <td width="150px">Nama Barang</td>
-                    <td>:   </td>
-                    <td>Celana Jeans</td>
+                    <td>UKURAN</td>
+                    <td>
+                            <input type="radio" value="x" name="satu" id="satu" checked>
+                            <label for="satu" class="satu">
+                                <span class="a">X</span>
+                            </label>
+            
+                            <input type="radio" value="xl" name="satu" id="dua">
+                            <label for="dua" class="satu">
+                                <span class="a">XL</span>
+                            </label>
+            
+                            <input type="radio" value="l" name="satu" id="tiga">
+                            <label for="tiga" class="satu">
+                                <span class="a">L</span>
+                            </label>
+            
+                            <input type="radio" value="xxl" name="satu" id="empat">
+                            <label for="empat" class="satu">
+                                <span class="a">XXL</span>
+                            </label>
+                    </td>
                 </tr>
                 <tr>
-                    <td>Harga</td>
-                    <td width="20px">:   </td>
-                    <td>IDR 2000000</td>
+                    <td>WARNA</td>
+                    <td>
+                            <input class="red" value="merah" type="radio" name="color" id="red" checked>
+                            <label for="red" class="dua red">
+                                <span class="a"></span>
+                            </label>
+
+                            <input class="blue" value="biru" type="radio" name="color" id="blue">
+                            <label for="blue" class="dua blue">
+                                    <span class="a"></span>
+                            </label>
+
+                            <input value="kuning" type="radio" name="color" id="yellow">
+                            <label for="yellow" class="dua yellow">
+                                <span class="a"></span>
+                            </label>
+                            
+                            <input value="hijau" type="radio" name="color" id="green">
+                            <label for="green" class="dua green">
+                                <span class="a"></span>
+                            </label>
+                    </td>
                 </tr>
                 <tr>
-                    <td>Ukuran Tersedia</td>
-                    <td>:   </td>
-                    <td>S,M,XL,XXL</td>
+                    <td><label for="jumlah">JUMLAH</label></td>
+                    <td><input type="number" placeholder="1" min="1" name="jmlh" id="jumlah"></td>
                 </tr>
                 <tr>
-                    <td>Stok Tersedia</td>
-                    <td>:   </td>
-                    <td>40</td>
+                    <td>BAHAN</td>
+                    <td>KATUN</td>
                 </tr>
             </table>
-
-            <h2>Catatan Penjual</h2>
+            <button class="inp">ADD TO CART</button>
+            </form>
+        </div>
+            <h2 class="ct">Catatan Penjual</h2>
             <p class="catatan">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
